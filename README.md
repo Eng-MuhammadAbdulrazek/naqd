@@ -1,9 +1,7 @@
-````markdown
+
 # 💱 Naqd
 
 Naqd is a lightweight Laravel package that provides ISO 4217-compliant currency data, including currency codes, names, symbols, and SVG icons for easy display and localization.
-
----
 
 ## 📦 Installation
 
