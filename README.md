@@ -1,7 +1,7 @@
 
 # 💱 Naqd
 
-Naqd is a lightweight Laravel package that provides ISO 4217-compliant currency data, including currency codes, names, symbols, and SVG icons for easy display and localization.
+Naqd is a lightweight Laravel package that provides ISO 4217-compliant Naqd data, including Naqd codes, names, symbols, and SVG icons for easy display and localization.
 
 ## 📦 Installation
 
@@ -24,7 +24,7 @@ If you need to register manually:
 ],
 
 'aliases' => [
-    'Currency' => Medo19\Naqd\Facades\Naqd::class,
+    'Naqd' => Medo19\Naqd\Facades\Naqd::class,
 ]
 ```
 
@@ -35,13 +35,13 @@ If you need to register manually:
 ### Get all currencies:
 
 ```php
-$currencies = Currency::all();
+$currencies = Naqd::all();
 ```
 
-### Get a specific currency:
+### Get a specific Naqd:
 
 ```php
-$usd = Currency::get('usd');
+$usd = Naqd::get('usd');
 
 // Result:
 [
@@ -60,7 +60,7 @@ $usd = Currency::get('usd');
 In Blade:
 
 ```blade
-{!! Currency::getSvg('usd') !!}
+{!! Naqd::getSvg('usd') !!}
 ```
 
 > Outputs the full `<svg>...</svg>` inline.
@@ -69,7 +69,7 @@ In Blade:
 
 ## 🖼️ Publishing Assets
 
-You can publish the currency JSON file or SVG icons if needed:
+You can publish the Naqd JSON file or SVG icons if needed:
 
 ```bash
 php artisan vendor:publish --tag=currencies-config
