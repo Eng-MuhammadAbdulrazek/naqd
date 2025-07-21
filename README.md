@@ -1,7 +1,3 @@
-Here’s a clean and professional **`README.md`** for your Laravel package `medo19/naqd`:
-
----
-
 ````markdown
 # 💱 Naqd
 
@@ -142,11 +138,7 @@ Feel free to submit PRs or suggestions.
 ## 📧 Maintainer
 
 **Muhammad Abdulrazek**
-GitHub: [@medo19](https://github.com/medo19)
+GitHub: [@medo19](https://github.com/Eng-MuhammadAbdulrazek/)
 
 ```
-
 ---
-
-Would you like a version with images, badges (Packagist/GitHub), or Laravel seeder integration examples?
-```
