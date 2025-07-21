@@ -10,26 +10,6 @@ Naqd is a lightweight Laravel package that provides ISO 4217-compliant currency 
 ```bash
 composer require medo19/naqd
 ```
-````
-
-Or if it's in your `/packages` folder locally, add the following to your root `composer.json`:
-
-```json
-"repositories": [
-    {
-        "type": "path",
-        "url": "packages/medo19/naqd"
-    }
-]
-```
-
-Then run:
-
-```bash
-composer require medo19/naqd:@dev
-```
-
----
 
 ## ⚙️ Service Provider & Facade (Auto-discovered)
 
