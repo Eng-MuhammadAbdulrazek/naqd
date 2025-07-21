@@ -1,0 +1,42 @@
+{
+    "SAR": {
+        "name": "Saudi Riyal",
+        "symbol": "﷼",
+        "unicode": "U+FDFC",
+        "numeric": "682",
+        "decimal_digits": 2,
+        "svg": "sar.svg"
+    },
+    "EGP": {
+        "name": "Egyptian Pound",
+        "symbol": "£",
+        "unicode": "U+00A3",
+        "numeric": "818",
+        "decimal_digits": 2,
+        "svg": "egp.svg"
+    },
+    "USD": {
+        "name": "United States Dollar",
+        "symbol": "$",
+        "unicode": "U+0024",
+        "numeric": "840",
+        "decimal_digits": 2,
+        "svg": "usd.svg"
+    },
+    "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "unicode": "U+20AC",
+        "numeric": "978",
+        "decimal_digits": 2,
+        "svg": "eur.svg"
+    },
+    "GBP": {
+        "name": "British Pound",
+        "symbol": "£",
+        "unicode": "U+00A3",
+        "numeric": "826",
+        "decimal_digits": 2,
+        "svg": "gbp.svg"
+    }
+}

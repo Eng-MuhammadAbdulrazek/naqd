@@ -1,0 +1,22 @@
+{
+    "name": "medo19/naqd",
+    "description": "Naqd is a lightweight package that provides ISO 4217-compliant currency data along with corresponding Unicode symbols and SVG icons.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Medo19\\Naqd\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Medo19\\Naqd\\NaqdServiceProvider"
+            ],
+            "aliases": {
+                "Currency": "Medo19\\Naqd\\Facades\\Naqd"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
